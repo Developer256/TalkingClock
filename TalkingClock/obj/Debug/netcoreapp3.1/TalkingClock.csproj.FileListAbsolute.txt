@@ -1,0 +1,25 @@
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.exe
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.deps.json
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.runtimeconfig.json
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.runtimeconfig.dev.json
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.dll
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.pdb
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.AssemblyInfoInputs.cache
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.AssemblyInfo.cs
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.csproj.CoreCompileInputs.cache
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.dll
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.pdb
+C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.genruntimeconfig.cache
+C:\TFS\InfinityWorks\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.exe
+C:\TFS\InfinityWorks\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.deps.json
+C:\TFS\InfinityWorks\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.runtimeconfig.json
+C:\TFS\InfinityWorks\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.runtimeconfig.dev.json
+C:\TFS\InfinityWorks\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.dll
+C:\TFS\InfinityWorks\TalkingClock\bin\Debug\netcoreapp3.1\TalkingClock.pdb
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.csprojAssemblyReference.cache
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.AssemblyInfoInputs.cache
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.AssemblyInfo.cs
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.csproj.CoreCompileInputs.cache
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.dll
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.pdb
+C:\TFS\InfinityWorks\TalkingClock\obj\Debug\netcoreapp3.1\TalkingClock.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "f1yec5HOiFg2Q9KajoRcXlzbht8o8EHCGNPI7dGsxbDEAptc6lfcJk6ndB+iYYXUntfahvCkk5MnUnzxyDAgcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\seydi\\Documents\\Visual Studio 2019\\Projects\\TalkingClock\\TalkingClock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seydi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.7\\microsoft.netcore.app.runtime.win-x86.3.1.7.nupkg.sha512",
+    "C:\\Users\\seydi\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.7\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.7.nupkg.sha512",
+    "C:\\Users\\seydi\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.7\\microsoft.aspnetcore.app.runtime.win-x86.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
