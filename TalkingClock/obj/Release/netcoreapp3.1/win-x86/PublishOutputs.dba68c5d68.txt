@@ -1,0 +1,2 @@
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\publish\TalkingClock.pdb
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\publish\TalkingClock.exe

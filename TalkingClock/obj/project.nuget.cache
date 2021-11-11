@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SeAUyfimCgeEU10fIlpkM+og+shreRhb9tFa023lHP+X3Iq/xbzesuzp8JUX9inf3G1VyLHNMabm2NB04aJg8w==",
+  "dgSpecHash": "JK231k11ju5+6WUhKOMooUkUgzMVkUDRfc6tSfCe0CmH1x23p+43kZlZskgPOSNLo1P6q52DfczbBi7HOoiJxQ==",
   "success": true,
-  "projectFilePath": "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seydi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\seydi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

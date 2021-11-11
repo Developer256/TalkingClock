@@ -84,252 +84,35 @@ namespace TalkingClock
         private static string Sanitize(string strTime)
         {
             strTime = strTime.Trim().Replace(".", ":");
-            char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz /\\[]@#,;'*+-!£$%^&*(){}~_=".ToCharArray();
+            char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz /\\[]@#,;'*+-!£$%^&*(){}<>?|`¬~_=".ToCharArray();
 
             return new string(strTime.Where(c => !alpha.Contains(c)).ToArray());
         }
 
         private static string DetermineHours(int timeHours)
         {
-            string tellHours = string.Empty;
+            string[] hourUnits = new[] { "midnight", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" };
 
-            switch (timeHours)
-            {
-                case 0:
-                    tellHours = "midnight";
-                    break;
-                case 1:
-                    tellHours = "one";
-                    break;
-                case 2:
-                    tellHours = "two";
-                    break;
-                case 3:
-                    tellHours = "three";
-                    break;
-                case 4:
-                    tellHours = "four";
-                    break;
-                case 5:
-                    tellHours = "five";
-                    break;
-                case 6:
-                    tellHours = "six";
-                    break;
-                case 7:
-                    tellHours = "seven";
-                    break;
-                case 8:
-                    tellHours = "eight";
-                    break;
-                case 9:
-                    tellHours = "nine";
-                    break;
-                case 10:
-                    tellHours = "ten";
-                    break;
-                case 11:
-                    tellHours = "eleven";
-                    break;
-                case 12:
-                    tellHours = "twelve";
-                    break;
-                case 24:
-                    tellHours = "midnight";
-                    break;
-            }
-
-            return tellHours;
+            if (timeHours == 24)
+                return hourUnits[0];
+            else
+                return
+                    hourUnits[timeHours];
         }
 
         private static string DetermineMinutes(int timeMinutes)
         {
-            string tellMinutes = string.Empty;
+            string[] minuteUnits = new[] { string.Empty, "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "quarter", "sixteen", "seventeen", "eighteen", "nineteen", "twenty", "twenty-one", "twenty-two", "twenty-three", "twenty-four", "twenty-five", "twenty-six", "twenty-seven", "twenty-eight", "twenty-nine", "half" };
 
-            switch (timeMinutes)
+            if (timeMinutes <= 30)
             {
-                case 0:
-                    break;
-                case 1:
-                    tellMinutes = "one";
-                    break;
-                case 2:
-                    tellMinutes = "two";
-                    break;
-                case 3:
-                    tellMinutes = "three";
-                    break;
-                case 4:
-                    tellMinutes = "four";
-                    break;
-                case 5:
-                    tellMinutes = "five";
-                    break;
-                case 6:
-                    tellMinutes = "six";
-                    break;
-                case 7:
-                    tellMinutes = "seven";
-                    break;
-                case 8:
-                    tellMinutes = "eight";
-                    break;
-                case 9:
-                    tellMinutes = "nine";
-                    break;
-                case 10:
-                    tellMinutes = "ten";
-                    break;
-                case 11:
-                    tellMinutes = "eleven";
-                    break;
-                case 12:
-                    tellMinutes = "twelve";
-                    break;
-                case 13:
-                    tellMinutes = "thirteen";
-                    break;
-                case 14:
-                    tellMinutes = "fourteen";
-                    break;
-                case 15:
-                    tellMinutes = "quarter";
-                    break;
-                case 16:
-                    tellMinutes = "sixteen";
-                    break;
-                case 17:
-                    tellMinutes = "seventeen";
-                    break;
-                case 18:
-                    tellMinutes = "eighteen";
-                    break;
-                case 19:
-                    tellMinutes = "nineteen";
-                    break;
-                case 20:
-                    tellMinutes = "twenty";
-                    break;
-                case 21:
-                    tellMinutes = "twenty-one";
-                    break;
-                case 22:
-                    tellMinutes = "twenty-two";
-                    break;
-                case 23:
-                    tellMinutes = "twenty-three";
-                    break;
-                case 24:
-                    tellMinutes = "twenty-four";
-                    break;
-                case 25:
-                    tellMinutes = "twenty-five";
-                    break;
-                case 26:
-                    tellMinutes = "twenty-six";
-                    break;
-                case 27:
-                    tellMinutes = "twenty-seven";
-                    break;
-                case 28:
-                    tellMinutes = "twenty-eight";
-                    break;
-                case 29:
-                    tellMinutes = "twenty-nine";
-                    break;
-                case 30:
-                    tellMinutes = "half";
-                    break;
-                case 31:
-                    tellMinutes = "twenty-nine";
-                    break;
-                case 32:
-                    tellMinutes = "twenty-eight";
-                    break;
-                case 33:
-                    tellMinutes = "twenty-seven";
-                    break;
-                case 34:
-                    tellMinutes = "twenty-six";
-                    break;
-                case 35:
-                    tellMinutes = "twenty-five";
-                    break;
-                case 36:
-                    tellMinutes = "twenty-four";
-                    break;
-                case 37:
-                    tellMinutes = "twenty-three";
-                    break;
-                case 38:
-                    tellMinutes = "twenty-two";
-                    break;
-                case 39:
-                    tellMinutes = "twenty-one";
-                    break;
-                case 40:
-                    tellMinutes = "twenty";
-                    break;
-                case 41:
-                    tellMinutes = "nineteen";
-                    break;
-                case 42:
-                    tellMinutes = "eighteen";
-                    break;
-                case 43:
-                    tellMinutes = "seventeen";
-                    break;
-                case 44:
-                    tellMinutes = "sixteen";
-                    break;
-                case 45:
-                    tellMinutes = "quarter";
-                    break;
-                case 46:
-                    tellMinutes = "fourteen";
-                    break;
-                case 47:
-                    tellMinutes = "thirteen";
-                    break;
-                case 48:
-                    tellMinutes = "twelve";
-                    break;
-                case 49:
-                    tellMinutes = "eleven";
-                    break;
-                case 50:
-                    tellMinutes = "ten";
-                    break;
-                case 51:
-                    tellMinutes = "nine";
-                    break;
-                case 52:
-                    tellMinutes = "eight";
-                    break;
-                case 53:
-                    tellMinutes = "seven";
-                    break;
-                case 54:
-                    tellMinutes = "six";
-                    break;
-                case 55:
-                    tellMinutes = "five";
-                    break;
-                case 56:
-                    tellMinutes = "four";
-                    break;
-                case 57:
-                    tellMinutes = "three";
-                    break;
-                case 58:
-                    tellMinutes = "two";
-                    break;
-                case 59:
-                    tellMinutes = "one";
-                    break;
+                return minuteUnits[timeMinutes];
             }
-
-            return tellMinutes;
+            else
+            {
+                timeMinutes -= 29;
+                return minuteUnits[^timeMinutes];
+            }
         }
     }
 }

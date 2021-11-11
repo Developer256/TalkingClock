@@ -4642,11 +4642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj",
+      "projectUniqueName": "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj",
       "projectName": "ClockTests",
-      "projectPath": "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj",
+      "projectPath": "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj",
       "packagesPath": "C:\\Users\\seydi\\.nuget\\packages\\",
-      "outputPath": "C:\\TFS\\InfinityWorks\\ClockTests\\obj\\",
+      "outputPath": "C:\\TFS\\TalkingClockProject\\ClockTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -4665,9 +4665,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj": {
-              "projectPath": "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj"
+            "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj": {
+              "projectPath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj"
             }
           }
         }
@@ -4680,6 +4681,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -4704,12 +4706,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

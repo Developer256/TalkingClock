@@ -11,3 +11,16 @@ C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Release\ne
 C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.dll
 C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.pdb
 C:\Users\seydi\Documents\Visual Studio 2019\Projects\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.genruntimeconfig.cache
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\TalkingClock.exe
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\TalkingClock.deps.json
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\TalkingClock.runtimeconfig.json
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\TalkingClock.runtimeconfig.dev.json
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\TalkingClock.dll
+C:\TFS\TalkingClockProject\TalkingClock\bin\Release\netcoreapp3.1\TalkingClock.pdb
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.GeneratedMSBuildEditorConfig.editorconfig
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.AssemblyInfoInputs.cache
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.AssemblyInfo.cs
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.csproj.CoreCompileInputs.cache
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.dll
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.pdb
+C:\TFS\TalkingClockProject\TalkingClock\obj\Release\netcoreapp3.1\TalkingClock.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ea3bbcb4-8d6e-411a-8b9d-08b0b6faa1e5": {
+      "ProjectGuid": "ea3bbcb4-8d6e-411a-8b9d-08b0b6faa1e5",
+      "DisplayName": "TalkingClock",
+      "ColorIndex": 0
+    },
+    "8da4a9ac-fab4-425a-9680-50c38298e9b3": {
+      "ProjectGuid": "8da4a9ac-fab4-425a-9680-50c38298e9b3",
+      "DisplayName": "ClockTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

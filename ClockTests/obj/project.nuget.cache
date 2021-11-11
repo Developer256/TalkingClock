@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "56cyvGU79JZRLq7eWHdpvEeVLZRtO/M0+ouEVIVX+RzuXD4zP+HhgmezJ1A4EbFR8pFcYvm6GoBawccmbSMmLg==",
+  "dgSpecHash": "KBmHBVctZbbGRAIOX6FZrVLoZNEtC7aO3gu2ukngpq97SwHie7GVHJHyqhFVGEC4siSqUJED7yUSXehAO1+xug==",
   "success": true,
-  "projectFilePath": "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj",
+  "projectFilePath": "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\seydi\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\seydi\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -66,7 +66,8 @@
     "C:\\Users\\seydi\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\seydi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\seydi\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\seydi\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\seydi\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\seydi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

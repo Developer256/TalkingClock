@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seydi\\Documents\\Visual Studio 2019\\Projects\\TalkingClock\\TalkingClock.csproj",
+      "projectUniqueName": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj",
       "projectName": "TalkingClock",
-      "projectPath": "C:\\Users\\seydi\\Documents\\Visual Studio 2019\\Projects\\TalkingClock\\TalkingClock.csproj",
+      "projectPath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj",
       "packagesPath": "C:\\Users\\seydi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seydi\\Documents\\Visual Studio 2019\\Projects\\TalkingClock\\obj\\publish\\win-x86\\",
+      "outputPath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -38,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -49,6 +50,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -61,16 +63,24 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[3.1.7, 3.1.7]"
+            "version": "[3.1.21, 3.1.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x86",
+            "version": "[3.1.21, 3.1.21]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[3.1.7, 3.1.7]"
+            "version": "[3.1.21, 3.1.21]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[3.1.7, 3.1.7]"
+            "version": "[3.1.21, 3.1.21]"
           }
         ],
         "frameworkReferences": {
@@ -78,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

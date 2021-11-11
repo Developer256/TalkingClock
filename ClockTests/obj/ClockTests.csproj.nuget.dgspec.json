@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj": {}
+    "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj": {}
   },
   "projects": {
-    "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj": {
+    "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj",
+        "projectUniqueName": "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj",
         "projectName": "ClockTests",
-        "projectPath": "C:\\TFS\\InfinityWorks\\ClockTests\\ClockTests.csproj",
+        "projectPath": "C:\\TFS\\TalkingClockProject\\ClockTests\\ClockTests.csproj",
         "packagesPath": "C:\\Users\\seydi\\.nuget\\packages\\",
-        "outputPath": "C:\\TFS\\InfinityWorks\\ClockTests\\obj\\",
+        "outputPath": "C:\\TFS\\TalkingClockProject\\ClockTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -30,9 +30,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj": {
-                "projectPath": "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj"
+              "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj": {
+                "projectPath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj"
               }
             }
           }
@@ -45,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -69,23 +71,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj": {
+    "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj",
+        "projectUniqueName": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj",
         "projectName": "TalkingClock",
-        "projectPath": "C:\\TFS\\InfinityWorks\\TalkingClock\\TalkingClock.csproj",
+        "projectPath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\TalkingClock.csproj",
         "packagesPath": "C:\\Users\\seydi\\.nuget\\packages\\",
-        "outputPath": "C:\\TFS\\InfinityWorks\\TalkingClock\\obj\\",
+        "outputPath": "C:\\TFS\\TalkingClockProject\\TalkingClock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -104,6 +112,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -115,6 +124,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -125,12 +135,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
